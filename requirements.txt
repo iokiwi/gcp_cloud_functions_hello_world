@@ -1,0 +1,4 @@
+# Function dependencies, for example:
+# package>=version
+flask_restful>=0.3.7
+flask_sqlalchemy>=2.4.1
