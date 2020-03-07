@@ -1,3 +1,5 @@
+from flask import render_template
+
 def hello_world(request):
     """Responds to any HTTP request.
     Args:
@@ -13,4 +15,5 @@ def hello_world(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello World!'
+#         return f'Hello World!'
+        return render_template("hello_world")
